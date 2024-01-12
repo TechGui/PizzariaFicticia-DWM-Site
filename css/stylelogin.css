@@ -1,0 +1,188 @@
+* {
+    font-family: "DM Sans", "sans-serif";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --vermelho-principal: rgb(185 28 28);
+    --branco: #ffffff;
+    --preto-principal: #000000;
+    --fundo: #23262F;
+    --verde-principal: #27272E;
+    --verde-texto: #425466;
+    --texto-fundo: #9a9a9b;
+    --input-fundo: #EDF2F7;
+    --verde-botao: #141416;
+    --verde-contas: #718096;
+    --invisivel: #ffffff25;
+}
+
+#logo {
+    width: 260px;
+    height: auto;
+    object-fit: contain;
+}
+
+.fonte__maior {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.cabecalho {
+    font-family: "DM Sans", "sans-serif";
+    background-color: var(--vermelho-principal);
+    color: var(--branco);
+    height: 26vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.1em;
+    font-size: 1.3em;
+
+}
+
+.cabecalho p {
+    font-size: 0.9em;
+    width: 80%;
+    align-items: baseline;
+    text-align: center;
+
+}
+
+.login {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5em;
+    padding: 7%;
+    margin-top: 4em;
+
+}
+
+.login__texto {
+    text-align: center;
+    margin-top: 1.4em;
+    margin-bottom: 1.4em;
+
+}
+
+.login__texto2 {
+    font-size: 0.9em;
+    font-weight: bolder;
+    color: var(--texto-fundo);
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.login__campo {
+    color: var(--texto-fundo);
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: bolder;
+    border-radius: 1em;
+    padding: 2%;
+    border: none;
+    background-color: var(--input-fundo);
+
+}
+
+.login__link {
+    color: var(--texto-fundo);
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: bolder;
+    text-align: end;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+
+.login__botao {
+    background-color: var(--fundo);
+    color: var(--branco);
+    border-radius: 2em;
+    padding: 2.3%;
+    font-size: 1.1em;
+    font-weight: bolder;
+    border: none;
+    width: 70%;
+    margin: auto;
+}
+
+.login__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+
+}
+
+.login__img {
+    border: 1px solid var(--verde-texto);
+    border-radius: 50%;
+    border-color: var(--invisivel);
+    box-shadow: 0px 0px 4px 0px var(--texto-fundo);
+    padding: 1%;
+
+}
+
+.login__destaque {
+    font-size: 1em;
+    font-weight: bolder;
+    color: var(--verde-texto);
+    text-decoration: none;
+}
+
+
+main {
+    background-image: url("../img/backgroundpizzas.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+/*Mobile*/
+@media screen and (min-width: 1024px) {
+    body {
+        display: flex;
+
+    }
+
+    .cabecalho {
+        height: 100vh;
+        width: 40%;
+    }
+
+    .cabecalho p {
+        font-size: 1em;
+
+    }
+
+    #logo {
+        width: 300px;
+        height: auto;
+
+    }
+
+    main {
+        width: 60%;
+        height: 100vh;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: cover;
+
+    }
+
+}
