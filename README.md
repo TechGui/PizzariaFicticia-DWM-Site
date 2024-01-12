@@ -8,7 +8,7 @@ Tecnologias Utilizadas
 
 ◉ JavaScript
 
-Neste estágio inicial, apenas duas páginas foram desenvolvidas: a página principal e a página de login. Durante meu progresso de aprendizado na faculdade, espero aprimorar minhas habilidades o suficiente para dar continuidade no projeto, seja implementando melhorias ou novas funcionalidades dentro do site, assim como também espero dos demais integrantes. 😄
+Neste estágio inicial, duas páginas foram desenvolvidas: a página principal e a página de login. Durante meu progresso de aprendizado na faculdade, espero aprimorar minhas habilidades o suficiente para dar continuidade no projeto, seja implementando melhorias ou novas funcionalidades dentro do site, assim como também espero dos demais integrantes. 😄
 
 O projeto foi desenvolvido por:
 
