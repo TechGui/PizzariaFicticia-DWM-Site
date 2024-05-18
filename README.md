@@ -21,4 +21,4 @@ O projeto foi desenvolvido por:
 
 
 
-Clique aqui para ver o projeto em tempo real: https://devninjaguilherme.github.io/PizzariaFicticia-DWM-Site/
+Clique aqui para ver o projeto em tempo real: https://techgui.github.io/PizzariaFicticia-DWM-Site/
